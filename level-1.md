@@ -44,8 +44,9 @@ Envie d'aller les voir? Suffit de lister les containers `docker ps`.
 
 
 
-
-docker exec
+docker run : -v -p -w -u --rm -i -t --name 
+docker ps
+docker exec -it
 docker inspect
 docker rm
 docker start
@@ -54,10 +55,14 @@ docker stop
 docker images
 docker rmi
 docker build
-
+docker tag
 
 docker login
 docker push
 docker pull
 
+
+* Dockerfile concepts: RUN FROM COPY ENTRYPOINT CMD WORKDIR ENV ARG
+* docker-compose
+* Multistage (buildkit)
 
