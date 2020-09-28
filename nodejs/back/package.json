@@ -5,9 +5,6 @@
   "repository": "",
   "author": "Valentin RONTEIX",
   "license": "MIT",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
