@@ -40,5 +40,17 @@
     "ts-node": "^8.10.2",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testURL": "http://localhost/",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$"
   }
 }

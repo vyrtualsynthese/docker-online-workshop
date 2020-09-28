@@ -12,10 +12,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
+      "node",
       "webpack-env",
-      
-      "@wdio/mocha-framework",
-      "@wdio/sync",
       "jest"
     ],
     "paths": {
